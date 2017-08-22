@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="48dp"
+        android:orientation="vertical"
+        android:id="@+id/innerlayout">
+
+        <TextView
+            android:id="@+id/reportamountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/Amount"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ReportamountET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/enterAmount"
+            android:inputType="numberDecimal"
+            android:maxLength="12" />
+
+        <TextView
+            android:id="@+id/ReportDateTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:id="@+id/caledarlayout">
+
+            <EditText
+                android:id="@+id/reportedit_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:editable="false">
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/CalendarImageButtonReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:cropToPadding="true"
+                android:src="@drawable/calendar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ReportNoteTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:text="@string/note"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/description"
+            android:id="@+id/edit_des"
+            android:maxLength="15" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Spinner android:layout_width="150dp"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/abc_spinner_mtrl_am_alpha"
+                android:id="@+id/spinner_menu_income_payment">
+
+            </Spinner>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="67dp"
+                android:background="@android:drawable/btn_default"
+                android:drawableTop="@android:drawable/ic_menu_delete"
+
+                android:id="@+id/reportdelbutton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconlayout"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/plus"
+                android:id="@+id/ReportPlusimageButton" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/minus"
+                android:id="@+id/ReportMinusimageButton" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="50dp"
+        android:orientation="vertical"
+        android:id="@+id/innerlayout">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/Amount"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edit_amount_expense_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/enterAmount"
+            android:inputType="numberDecimal"
+            android:maxLength="12" />
+
+        <TextView
+            android:id="@+id/PaymentNoteTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/note"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/description"
+            android:id="@+id/edit_des_expense_payment"
+            android:maxLength="15" />
+
+        <TextView
+            android:id="@+id/PaymentDateTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:id="@+id/caledarlayout">
+
+            <ImageButton
+                android:id="@+id/Calendar_expense_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:cropToPadding="true"
+                android:src="@drawable/calendar" />
+
+            <EditText
+                android:id="@+id/edit_date_expense_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:editable="false">
+            </EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/expensepayment_layout"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_question"
+                android:id="@+id/image_cateexpense" />
+
+            <EditText
+                android:id="@+id/select_cateexpense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="Select Category"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:editable="false"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconlayout"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="bottom"
+                android:text="@string/confirm"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/Confirm_Expense" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="bottom"
+                android:text="@string/back"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/Back_Expense" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

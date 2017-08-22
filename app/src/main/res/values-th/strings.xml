@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_name">ชื่อ บัญชี</string>
+    <string name="add_account">เพิ่มบัญชี</string>
+    <string name="start_currecy">Currency</string>
+    <string name="finish">สิ้นสุด</string>
+    <string name="calendar">ปฎิทิน</string>
+    <string name="debt">บิลค่าใช้จ่าย</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="monetary">แสดงสกุลเงิน</string>
+    <string name="thai">ไทย</string>
+    <string name="eng">อังกฤษ</string>
+    <string name="language">ภาษา</string>
+    <string name="graphs">กราฟ</string>
+    <string name="history">ประวัติ</string>
+    <string name="payment">รายรับ,รายจ่าย</string>
+    <string name="Limit_Amount">วงเงิน</string>
+    <string name="Amount">จำนวนเงิน</string>
+    <string name="enterAmount">กรอกจำนวนเงิน</string>
+    <string name="note">รายละเอียด</string>
+    <string name="description">กรอกรายละเอียด</string>
+    <string name="billper">ค่าใช้จ่ายต่อเดือน</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="paymentname">ชื่อค่าใช้จ่าย</string>
+    <string name="enterpaymentname">กรอกชื่อค่าใช้จ่าย</string>
+    <string name="paymentstart">วันเริ่มต้นบิล</string>
+    <string name="paymentend">วันสิ้นสุดบิล</string>
+    <string name="name">ชื่อ</string>
+    <string name="starttime">วันเริ่มต้น</string>
+    <string name="endtime">วันสิ้นสุด</string>
+    <string name="date">วัน/เดือน/ปี</string>
+    <string name="editreport">แก้ไขประวัติ</string>
+    <string name="editpayment">แก้ไขค่าใช้จ่าย</string>
+    <string name="addpayment">เพิ่มค่าใช้จ่าย</string>
+    <string name="back">กลับ</string>
+
+
+    <string name="drink">เครื่องดื่ม</string>
+    <string name="food">อาหาร</string>
+    <string name="travel">เดินทาง</string>
+    <string name="gift">ของขวัญ</string>
+    <string name="game">เกมส์</string>
+
+    <string-array name="currency">
+        <item>THB</item>
+        <item>USD</item>
+        <!-- United States Dollars) -->
+
+    </string-array>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_debt">DebtActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+</resources>

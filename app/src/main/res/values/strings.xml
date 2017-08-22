@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pro Payment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_name">Account Name</string>
+    <string name="add_account">Add Account</string>
+    <string name="start_currecy">Currency</string>
+    <string name="finish">Finish</string>
+    <string name="calendar">Calendar</string>
+    <string name="debt">Bill Payment</string>
+    <string name="setting">Setting</string>
+    <string name="monetary">Show Monetary</string>
+    <string name="thai">TH</string>
+    <string name="eng">ENG</string>
+    <string name="language">Language</string>
+    <string name="calculator">Calculator</string>
+    <string name="graphs">Graphs</string>
+    <string name="history">History</string>
+    <string name="payment">Income,Expense</string>
+    <string name="Limit_Amount">Limit Amount</string>
+    <string name="Amount">Amount</string>
+    <string name="enterAmount">Enter your amount</string>
+    <string name="note">Note</string>
+    <string name="description">Add note</string>
+    <string name="billper">Pay per month</string>
+    <string name="confirm">Confirm</string>
+    <string name="paymentname">Payment Name</string>
+    <string name="enterpaymentname">Enter Payment Name</string>
+    <string name="paymentstart">Payment Start Date</string>
+    <string name="paymentend">Payment Expiration Date</string>
+    <string name="name">Name</string>
+    <string name="starttime">Start Date</string>
+    <string name="endtime">Expiration Date</string>
+    <string name="date">Date</string>
+    <string name="editreport">Edit History</string>
+    <string name="editpayment">Edit Bill Payment</string>
+    <string name="addpayment">Add Payment</string>
+    <string name="drink">Drink</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="gift">Gift</string>
+    <string name="game">Game</string>
+    <string name="back">Back</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="category">Categories</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="category">
+        <item>Drink</item>
+        <item>Food</item>
+        <item>Travel</item>
+        <item>Gift</item>
+        <item>Game</item>
+        <!-- United States Dollars) -->
+
+    </string-array>
+    <string-array name="type">
+        <item>Income</item>
+        <item>expenses</item>
+        <!-- United States Dollars) -->
+
+    </string-array>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_debt">DebtActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_bank">BankActivity</string>
+    <string name="title_activity_add__bank">Add_Bank</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_payment">payment</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_add__debt">Add_Debt</string>
+    <string name="title_activity_debtedit">debtedit</string>
+    <string name="title_activity_debt_receiver">DebtReceiverActivity</string>
+    <string name="title_activity_report_edit">ReportEdit</string>
+    <string name="title_activity_budget">Budget</string>
+    <string name="title_activity_choose_in_ex">ChooseInEx</string>
+    <string name="title_activity_income_payment">IncomePayment</string>
+    <string name="title_activity_expense_payment">ExpensePayment</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_income_cate">IncomeCate</string>
+    <string name="title_activity_choose_cate">ChooseCate</string>
+    <string name="title_activity_add_category">AddCategory</string>
+    <string name="title_activity_report_choose">Report_choose</string>
+    <string name="title_activity_report_week">report_week</string>
+    <string name="title_activity_category_adapter">CategoryAdapter</string>
+    <string name="title_activity_graph">Graph</string>
+    <string name="title_activity_expense_cate">ExpenseCate</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="0.36">
+        <TextView
+            android:id="@+id/debtnameDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/paymentname"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/debtamountDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/Amount"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/debtdateStartDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/starttime"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/debtdateEndDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/endtime"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/buttoneditdebt"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableTop="@android:drawable/ic_menu_edit"/>
+
+        <Button
+            android:id="@+id/buttondeletedebt"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableTop="@android:drawable/ic_menu_delete" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"/>
+
+    </LinearLayout>
+
+</LinearLayout>
